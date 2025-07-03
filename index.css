@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navber{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    background:linear-gradient(90deg, red,green,gold);
+    border-radius: 100px;
+}
+
+#hdadTag{
+    display: flex;
+    gap:18px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
