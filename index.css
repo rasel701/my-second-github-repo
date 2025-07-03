@@ -14,6 +14,9 @@
     padding: 5px 20px;
     align-items: center;
     border-radius: 10px;
+    position:sticky;
+    top:0;
+    margin: 20px 0;
 }
 
 #logo{
@@ -30,4 +33,15 @@
     justify-content: center;
     cursor: pointer;
     flex-wrap: wrap;
+}
+
+#textBox{
+    text-align: center;
+    margin: 20px auto;
+}
+
+#textBox2{
+    background-color: tan;
+    margin: 20px auto;
+    font-size: xx-large;
 }
